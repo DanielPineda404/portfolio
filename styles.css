@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 h1{
     font-size: 60px;
     color: navy;
@@ -18,4 +22,11 @@ a{
     font-size: 20px;
     font-weight: 100;
     font-family: 'Fredoka', sans-serif;
+}
+
+.section{
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
 }
