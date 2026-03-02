@@ -10,9 +10,45 @@ body{
 }
 
 .header__container{
-    background-color: #2c3e50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3a3a3a;
     color: white;
-    padding: 30px;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.header__nav{
+    width: 40%;
+}
+
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+}
+
+.header__list-link{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
+    transition: 0.3s ease-out;
+}
+
+.header__list-link:hover{
+    color: #e4ff4dbb;
+}
+
+.main__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
@@ -25,19 +61,53 @@ h2{
     color: #0c0c0c;
 }
 
+h3{
+    font-size: 30px;
+    color: #0c0c0c;
+}
+
 p{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 a{
-    color: #0077a7;
+    color: #3498db;
     text-decoration: none;
     font-size: 20px;
     font-weight: 100;
-    font-family: 'Fredoka', sans-serif;
 }
 
-.section{
+.section__aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.aboutme__content{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    gap: 50px;
+}
+
+.aboutme__img{
+    width: 300px;
+    border: 2px solid #2c2c2c;
+    border-radius: 80px;
+}
+
+.aboutme__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__projects{
     padding: 20px;
     margin: 20px 0;
     border: 1px solid #ccc;

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="styles.css">
     <title>Daniel Pineda | Desarrollador Web</title>
 </head>
@@ -16,18 +17,18 @@
                 <h3>DP</h3> 
             </a>
 
-            <nav>
+            <nav class="header__nav">
 
-                <ul>
+                <ul class="header__list">
 
-                    <li>
-                        <a href="index.html">Inicio</a>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="index.html">Inicio</a>
                     </li>
-                    <li>
-                        <a href="#proyectos">Proyectos</a>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="#proyectos">Proyectos</a>
                     </li>
-                    <li>
-                        <a href="#contacto">Contacto</a>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="#contacto">Contacto</a>
                     </li>
 
                 </ul>
@@ -40,27 +41,35 @@
 
     <main>
 
-        <div>
+        <div class="main__container">
 
-            <section class="section">
+            <section class="section__aboutme">
 
                 <h1>Soy Daniel Pineda, Fullstack en formación.</h1>
 
-                <img src="/assets/img/Imagen-DanielPineda-Oficina.jpeg" alt="foto daniel pineda sentado mirando a la camara">
+                <div class="aboutme__content">
 
-                <h2>Sobre mí:</h2>
+                    <img class="aboutme__img" src="/assets/img/Imagen-DanielPineda-Oficina.jpeg" alt="foto daniel pineda sentado mirando a la camara">
 
-                <p>Soy estudiante de desarrollo web, apasionado por aprender, crear y enseñar. Actualmente estoy fortaleciendo mis habilidades en HTML y CSS, y continúo avanzando hacia JavaScript, React y Firebase.</p>
+                    <div class="aboutme__description">
 
-                <a href="https://www.github.com/danielpineda404" target="_blank">GitHub</a>
+                        <h2>Sobre mí:</h2>
 
-                <a href="https://www.instagram.com/danielpineda.404" target="_blank">Instagram</a>
+                        <p>Soy estudiante de desarrollo web, apasionado por aprender, crear y enseñar. Actualmente estoy fortaleciendo mis habilidades en HTML y CSS, y continúo avanzando hacia JavaScript, React y Firebase.</p>
+
+                        <a href="https://www.github.com/danielpineda404" target="_blank">GitHub</a>
+
+                        <a href="https://www.instagram.com/danielpineda.404" target="_blank">Instagram</a>
+
+                    </div>
+
+                </div>
 
             </section>
 
-            <section class="section">
+            <section class="section__projects">
 
-                <ul>
+                <ul class="header__list">
 
                     <h2>Proyectos trabajados</h2>
 
