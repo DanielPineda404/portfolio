@@ -31,7 +31,6 @@ p{
 a{
     color:inherit;
     text-decoration: none;
-    font-size: 20px;
     font-weight: 100;
 }
 
@@ -52,9 +51,18 @@ em{
     align-items: center;
     text-align: center;
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
+}
+
+.aboutme__title{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.aboutme__description{
+    font-size: 25px;
 }
 
 .section__information{
@@ -87,7 +95,7 @@ em{
 }
 
 .information__item-description{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .information__img{
@@ -103,7 +111,7 @@ em{
     flex-direction: column;
     text-align: center;
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
@@ -119,6 +127,7 @@ em{
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    width: 100%;
 }
 
 .skills__item{
@@ -138,7 +147,33 @@ em{
 
 .section__projects{
     padding: 20px;
-    margin: 20px 0;
+    margin: 0px 20px 20px 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
+}
+
+.projects__title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.projects__item-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.projects__tags{
+    color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #333333;
+}
+
+.projects__item-links{
+    color: #0074aa;
+}
+
+.projects__item-description{
+    font-weight: 100;
+    font-size: 20px;
 }

@@ -2,11 +2,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #3a3a3a;
+    background-color: #2c3e50;
     color: white;
     gap: 100px;
     flex-wrap: wrap;
     padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.header__title{
+    font-weight: 100;
+    font-size: 16px;
+    color: white;
 }
 
 .header__nav{
@@ -30,5 +37,5 @@
 }
 
 .header__list-link:hover{
-    color: #e4ff4dbb;
+    color: #e08c0dbb;
 }

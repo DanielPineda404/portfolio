@@ -1,6 +1,13 @@
 footer{
     background-color: #2c3e50;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer__description{
+    color: #f3f3f3;
+    font-size: 16px;
+    font-weight: bold;
 }
