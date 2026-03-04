@@ -7,6 +7,10 @@
     border-radius: 0px 0px 10px 10px;
 }
 
+.header__title-link{
+    text-decoration: none;
+}
+
 .header__title{
     font-weight: 100;
     font-size: 16px;
